@@ -219,6 +219,8 @@ body {
   border-radius: 35px;
   margin-top: 37px;
   cursor: pointer;
+  width: 195px;
+  height: 42px;
 }
 .partners {
   text-align: center;
