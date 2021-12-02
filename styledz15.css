@@ -22,6 +22,7 @@ body {
 .container {
   width: 940px;
   margin: 0 auto;
+  max-width: 100%;
 }
 .header {
   display: flex;
@@ -224,4 +225,9 @@ body {
 }
 .partners {
   text-align: center;
+}
+@media screen and (maxwidth=768px) {
+  .partners-button {
+    background-color: black;
+  }
 }
