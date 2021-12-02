@@ -83,6 +83,8 @@ body {
   padding: 13px 13px;
   border-radius: 50px;
   cursor: pointer;
+  width: 228px;
+  height: 43px;
 }
 .partners-title {
   font-family: Montserrat;
