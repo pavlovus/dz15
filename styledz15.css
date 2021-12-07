@@ -20,6 +20,7 @@ p {
 .section-1 {
   background-image: url(./desk-header\ 1.png);
   background-repeat: no-repeat;
+  background-size: cover;
   padding-bottom: 170px;
   padding-top: 36px;
 }
@@ -263,6 +264,7 @@ p {
   }
   .partners-item {
     flex-basis: calc((100% - 0px) / 1);
+    margin-right: 0;
   }
   .partners-list {
     flex-wrap: wrap;
@@ -282,5 +284,14 @@ p {
   }
   .preview-button {
     padding: 13px 38px;
+  }
+  .header {
+    flex-direction: column-reverse;
+  }
+  .logo {
+    margin-top: 112px;
+  }
+  .preview {
+    margin-top: 22px;
   }
 }
