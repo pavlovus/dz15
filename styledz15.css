@@ -222,8 +222,20 @@ body {
 .partners {
   text-align: center;
 }
-@media screen and (maxwidth=768px) {
-  .partners-button {
-    background-color: black;
+@media screen and (max-width: 768px) {
+  .partners-item {
+    flex-basis: calc((100% - 0px) / 3);
+  }
+  .partners-item:nth-child(2) {
+    margin-bottom: 64px;
+  }
+  .partners-item:first-child {
+    margin-bottom: 64px;
+  }
+  .partners-list {
+    flex-wrap: wrap;
+  }
+  .partners-text {
+    max-width: 250px;
   }
 }
